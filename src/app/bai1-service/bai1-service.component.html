@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table table-bordered">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>stats</th>
+      <th>Created at</th>
+    </tr>
+    <tr *ngFor="let lt of list">
+      <td>{{ lt.name }}</td>
+      <td> {{ lt.age }} </td>
+      <td> {{ lt.statis }} </td>
+      <td> {{ lt.createdAt | date}} </td>
+    </tr>
+  </table>
+</div>
